@@ -16,3 +16,37 @@ function createNewUser(user: TestUser) {
   user.contactNumber = 230131533;
   user.password = "habijabi";
 }
+
+interface Food {
+  name: string;
+  price: number;
+}
+
+interface SweetFood extends Food {
+  isDelicious: boolean;
+  isExpensive: boolean;
+}
+
+function getSweetFood(food: SweetFood) {
+  food.name = "Chocolate Cake";
+  food.isDelicious = true;
+  food.price = 150;
+  food.isExpensive = false;
+}
+
+interface AditiysFood extends Food {
+  SecondItemName: string;
+  ThirdItemName: string;
+  isHalimWithBone: boolean;
+  dirnkName: string;
+  isDrinkHalfLiter: boolean;
+}
+
+function getAdisFood(nasta: AditiysFood) {
+  nasta.name = "Halim";
+  nasta.SecondItemName = "Porota";
+  nasta.ThirdItemName = "Puri";
+  nasta.isHalimWithBone = true;
+  nasta.dirnkName = "Pepsi";
+  nasta.isDrinkHalfLiter = true;
+}

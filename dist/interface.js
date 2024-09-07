@@ -8,3 +8,17 @@ function createNewUser(user) {
     user.contactNumber = 230131533;
     user.password = "habijabi";
 }
+function getSweetFood(food) {
+    food.name = "Chocolate Cake";
+    food.isDelicious = true;
+    food.price = 150;
+    food.isExpensive = false;
+}
+function getAdisFood(nasta) {
+    nasta.name = "Halim";
+    nasta.SecondItemName = "Porota";
+    nasta.ThirdItemName = "Puri";
+    nasta.isHalimWithBone = true;
+    nasta.dirnkName = "Pepsi";
+    nasta.isDrinkHalfLiter = true;
+}
