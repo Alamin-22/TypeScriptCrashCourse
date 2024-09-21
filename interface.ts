@@ -11,7 +11,7 @@ by creating interface of TestUser we actually created a shape of  user. That Mea
 */
 
 function createNewUser(user: TestUser) {
-  user.name = "Md. Kuddus Ali";
+  user.name = "Md.Kuddus Ali";
   user.email = "kuddus@ali.com";
   user.contactNumber = 230131533;
   user.password = "habijabi";

@@ -1,3 +1,4 @@
+
 class SSD {
   public name = "Adata 840M"; // we can set variable without writing Public but still it will  set public hiddenly.
   //also If I write a variable using public then that variable is changeable. Similar to Let Const in Js
